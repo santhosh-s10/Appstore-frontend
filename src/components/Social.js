@@ -10,7 +10,7 @@ const Social = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        let Url = "http://localhost:3000/apps";
+        let Url = "https://appstore-backend-coral.vercel.app/apps";
         if (category !== "All") {
           Url += `?category=${category}`;
         } 
