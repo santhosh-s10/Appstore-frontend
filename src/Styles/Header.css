@@ -1,0 +1,17 @@
+.title-div{
+    display: flex;
+    justify-content: center;
+}
+.search-div{
+    display: flex;
+    justify-content: center;
+}
+.header-nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-items{
+    cursor: pointer;
+}

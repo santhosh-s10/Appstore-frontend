@@ -1,0 +1,28 @@
+.social-grid{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-evenly;
+    row-gap: 20px;
+}
+.social-grid-items{
+    box-shadow: rgb(164, 164, 164) 2px 2px 2px 2px;
+    padding: 10px;
+    border-radius: 6px;
+}
+.social-grid-items img{
+    height: 150px;
+    width: 150px;
+}
+.thead{
+    border: 3px solid blue;
+    padding: 10px;
+
+}
+.tdata{
+    border: 3px solid rgb(231, 231, 231);
+    height: 30px;
+    padding: 10px;
+}
+.show-table{
+    border-collapse: collapse;
+}
